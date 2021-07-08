@@ -58,5 +58,16 @@ div {
 }
 
 header {
+  height: 120px;
+  background-color: rgb(135, 97, 170);
+  z-index: 1;
+  margin: -30px;
+  padding-top: 10px;
+}
+
+.brand {
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
   height: 60px;
+  margin: 5px 30px;
 }
