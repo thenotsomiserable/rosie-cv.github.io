@@ -13,6 +13,44 @@ body {
   min-height: 100vh;
 }
 
+*/ Navigation section */
+
+.role-nav {
+  list-style-type: none;
+  padding-left: 0;
+  vertical-align: middle;
+  float: right;
+  padding: 20px 30px 20px 20px;
+}
+
+.role-nav ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.role-nav ul li:last-child {
+  border-right: none;
+}
+
+.role-nav-item {
+  display: inline-block;
+}
+
+.role-nav-item a {
+  color: #114757;
+  font-size: 90%;
+  font-weight: 900;
+}
+
+.role-nav-item a::after {
+  display: inline-block;
+  color: #114757;
+  content: '|';
+  font-size: 90%;
+  font-weight: 900;
+  padding: 0 3px;
+}
+
 section {
   margin: auto;
   padding: 10px 5px;
@@ -97,39 +135,4 @@ footer {
   height: 90px;
   width: 20%;
   float: left;
-}
-
-*/ Navigation section */
-
-.role-nav {
-  list-style-type: none;
-  padding-left: 0;
-  vertical-align: middle;
-  float: right;
-  padding: 20px 30px 20px 20px;
-}
-
-.role-nav ol {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.role-nav ul li:last-child {
-  border-right: none;
-}
-
-.role-nav-item {
-  display: inline-block;
-  color: #114757;
-  font-size: 90%;
-  font-weight: 900;
-}
-
-.role-nav-item a::after {
-  display: inline-block;
-  color: #114757;
-  content: '|';
-  font-size: 90%;
-  font-weight: 900;
-  padding: 0 3px;
 }
