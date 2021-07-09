@@ -74,8 +74,8 @@ header {
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
   height: 60px;
-  margin: auto;
-  width: 30%;
+  margin-left: 230px;
+  width: 20%;
   float: left;
 }
 
@@ -86,11 +86,17 @@ header {
   padding-left: 0;
   vertical-align: middle;
   float: right;
+  border-right: solid #78e3ec 3px;
+  padding: 20px;
 }
 
 .role-nav ol {
   list-style-type: none;
   padding-left: 0;
+}
+
+.role-nav ul li:last-child {
+  border-right: none;
 }
 
 .role-nav-item {
