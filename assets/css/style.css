@@ -72,6 +72,10 @@ p, ul, li {
   border-bottom: solid rgb(135, 97, 170) 2px;
 }
 
+#heading-section {
+  margin-top: 40px;
+}
+
 .header-wrapper, .footer-wrapper {
   margin: auto;
   width: 60%;
