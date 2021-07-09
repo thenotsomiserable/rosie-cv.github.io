@@ -115,6 +115,10 @@ footer {
   float: left;
 }
 
+.brand.toggle {
+  background-image: none;
+}
+
 /* Navigation section */
 
 .role-nav {
