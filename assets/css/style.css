@@ -82,10 +82,14 @@ header {
   background-color: rgb(135, 97, 170);
   z-index: 1;
   padding-top: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .shrink {
   height: 100px;
+  background-image: hide;
 }
 
 footer {
