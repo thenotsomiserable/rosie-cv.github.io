@@ -75,7 +75,8 @@ header {
   background-repeat: no-repeat;
   height: 60px;
   margin: auto;
-  width: 60%;
+  width: 30%;
+  float: left;
 }
 
 */ Navigation section */
@@ -84,6 +85,7 @@ header {
   list-style-type: none;
   padding-left: 0;
   vertical-align: middle;
+  float: right;
 }
 
 .role-nav ol {
