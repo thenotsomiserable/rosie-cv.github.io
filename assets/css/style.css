@@ -19,7 +19,7 @@ section {
   width: 60%;
 }
 
-footer h6 {
+footer h5 {
   color: white;
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 footer {
-  background-color: rgb(75, 61, 90);
+  background-color: #4b3d5a;
   height: 120px;
   width: 100%;
   margin-top: auto;
