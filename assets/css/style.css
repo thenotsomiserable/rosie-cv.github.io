@@ -66,7 +66,7 @@ p {
   border-bottom: solid rgb(135, 97, 170) 2px;
 }
 
-.header-wrapper, footer {
+.header-wrapper, .footer-wrapper {
   margin: auto;
   width: 60%;
 }
@@ -77,6 +77,14 @@ header {
   z-index: 1;
   margin: -30px;
   padding-top: 10px;
+}
+
+footer {
+  height: 120px;
+  background-color: rgb(50, 17, 82);
+  z-index: 1;
+  margin: -30px;
+  padding-bottom: 10px;
 }
 
 .brand {
@@ -95,10 +103,7 @@ header {
   padding-left: 0;
   vertical-align: middle;
   float: right;
-  border-right: solid #78e3ec 3px;
   padding: 20px 30px 20px 20px;
-  float: right;
-  padding-right: 30px;
 }
 
 .role-nav ol {
@@ -116,7 +121,7 @@ header {
 
 .role-nav-item a::after {
   display: inline-block;
-  color: #2e87a1;
+  color: #114757;
   content: '|';
   font-size: 90%;
   font-weight: 900;
