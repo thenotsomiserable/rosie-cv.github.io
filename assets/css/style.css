@@ -21,16 +21,8 @@ a {
   color: #2e87a1
 }
 
-heading h1{
-  font-size: 42px;
-}
-
-heading h2{
-  font-size: 38px;
-}
-
 h1 {
-  font-size: 32px;
+  font-size: 34px;
 }
 
 h2 {
@@ -58,6 +50,14 @@ p {
   font-size: 16px;
 }
 
+heading h1{
+  font-size: 44px;
+}
+
+heading h2{
+  font-size: 38px;
+}
+
 div {
   padding: 20px 5px;
 }
@@ -76,4 +76,30 @@ header {
   height: 60px;
   margin: auto;
   width: 60%;
+}
+
+*/ Navigation section */
+
+.role-nav {
+  list-style-type: none;
+  padding-left: 0;
+  vertical-align: middle;
+}
+
+.role-nav ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.role-nav-item {
+  display: inline-block;
+}
+
+.role-nav-item a::after {
+  display: inline-block;
+  color: #2e87a1;
+  content: '|';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
 }
