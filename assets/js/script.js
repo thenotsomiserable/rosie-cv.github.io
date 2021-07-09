@@ -1,10 +1,9 @@
-$(document).on("scroll", function(){
+$(document).on("scroll", function () {
   if
-    ($(document).scrollTop() > 100){
-    $("header").addClass("shrink");
+    ($(document).scrollTop() > 100) {
+    $("header").addClass("shrink").removeClass("brand");
   }
-  else
-  {
+  else {
     $("header").removeClass("shrink");
   }
 });
