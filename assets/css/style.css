@@ -70,6 +70,11 @@ header {
   padding-top: 10px;
 }
 
+.header-wrapper {
+  margin: auto;
+  width: 60%;
+}
+
 .brand {
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
