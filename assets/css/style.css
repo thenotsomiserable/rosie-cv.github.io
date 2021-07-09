@@ -120,6 +120,9 @@ footer {
 
 .role-nav-item {
   display: inline-block;
+  color: #114757;
+  font-size: 90%;
+  font-weight: 900;
 }
 
 .role-nav-item a::after {
