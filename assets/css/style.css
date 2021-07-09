@@ -8,6 +8,12 @@ body {
   padding: 40px 30px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 section {
   margin: auto;
   width: 60%;
@@ -80,13 +86,9 @@ header {
 }
 
 footer {
+  background-color: rgb(50, 17, 82);
   color: white;
   height: 120px;
-  background-color: rgb(50, 17, 82);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding-bottom: 10px;
   width: 100%;
   margin-top: auto;
 }
