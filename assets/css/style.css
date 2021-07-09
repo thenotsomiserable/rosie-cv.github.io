@@ -81,7 +81,11 @@ header {
   height: 120px;
   background-color: rgb(135, 97, 170);
   z-index: 1;
-  padding-top: 10px;
+  padding-top: 20px;
+}
+
+.shrink {
+  height: 100px;
 }
 
 footer {
@@ -94,7 +98,7 @@ footer {
 .brand {
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
-  height: 90px;
+  height: 110px;
   width: 20%;
   float: left;
 }
@@ -102,7 +106,6 @@ footer {
 /* Navigation section */
 
 .role-nav {
-  list-style-type: none;
   padding-left: 0;
   vertical-align: middle;
   float: right;
