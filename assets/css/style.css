@@ -19,6 +19,10 @@ section {
   width: 60%;
 }
 
+footer h6 {
+  color: white;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   color: #383838;
 }
@@ -83,7 +87,6 @@ header {
 
 footer {
   background-color: rgb(75, 61, 90);
-  color: white;
   height: 120px;
   width: 100%;
   margin-top: auto;
