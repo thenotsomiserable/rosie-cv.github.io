@@ -13,6 +13,10 @@ section {
   width: 60%;
 }
 
+div {
+  padding: 20px 5px;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   color: #383838;
 }
@@ -50,16 +54,21 @@ p {
   font-size: 16px;
 }
 
-heading h1{
+.heading h1{
   font-size: 44px;
 }
 
-heading h2{
+.heading h2{
   font-size: 38px;
 }
 
-div {
-  padding: 20px 5px;
+.heading {
+  border-bottom: solid rgb(135, 97, 170) 2px;
+}
+
+.header-wrapper {
+  margin: auto;
+  width: 60%;
 }
 
 header {
@@ -70,16 +79,11 @@ header {
   padding-top: 10px;
 }
 
-.header-wrapper {
-  margin: auto;
-  width: 60%;
-}
-
 .brand {
   background-image: url('../images/logo.svg');
   background-repeat: no-repeat;
   height: 60px;
-  margin-left: 230px;
+  margin-left: 30px;
   width: 20%;
   float: left;
 }
@@ -112,7 +116,7 @@ header {
   display: inline-block;
   color: #2e87a1;
   content: '|';
-  font-size: 80%;
-  font-weight: bold;
+  font-size: 90%;
+  font-weight: 900;
   padding: 0 3px;
 }
