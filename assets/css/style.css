@@ -87,16 +87,16 @@ header {
   padding-top: 20px;
   width: 100%;
   /* animation magic */
-  transition: all 0.4s ease-in-out
-  -webkit-transition: all 0.4s ease-in-out
-  -moz-transition: all 0.4s ease-in-out
-  z-index: 9999
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  z-index: 9999;
   position: fixed;
   top: 0;
 }
 
 .shrink {
-  height: 100px;
+  padding-top: 0;
 }
 
 footer {
