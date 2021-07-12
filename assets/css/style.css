@@ -15,8 +15,12 @@ body {
 
 section {
   margin: auto;
-  padding: 10px 5px;
+  padding: 10px 5px 0;
   width: 60%;
+}
+
+section:last-child {
+  padding-bottom: 20px;
 }
 
 footer p {
