@@ -120,6 +120,72 @@ footer {
   float: left;
 }
 
+.logo-1 {
+  font-size: 0;
+  margin: 14px 0;
+  height: 56px;
+  position: relative;
+  transition: height ease-in;
+  width: 180px;
+}
+
+.logo-1-background {
+  background-image: url('../images/logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.logo-2 {
+  background-image: url('../images/logo-horizontal.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  margin: 0;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(0) scale(1,1)!important;
+  -webkit-transform:translate3d(0,0,0);
+  width: 200px;
+
+  animation: fadeIn ease .5s;
+  -webkit-animation: fadeIn ease .5s;
+  -moz-animation: fadeIn ease .5s;
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+}
+
+.logo {
+  min-height: 26px;
+  line-height: 0;
+}
+
+
 /* Navigation section */
 
 .role-nav {
