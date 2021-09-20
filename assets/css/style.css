@@ -119,6 +119,14 @@ footer {
   padding-top: 20px;
 }
 
+.footer-items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+
 .brand {
   width: 20%;
   float: left;
