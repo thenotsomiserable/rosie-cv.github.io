@@ -122,9 +122,9 @@ footer {
 
 .logo-1 {
   font-size: 0;
-  height: 80px;
-  margin: 20px 0;
+  height: 100px;
   position: relative;
+  top: -5px;
   transition: height ease-in;
   width: 180px;
 }
@@ -141,7 +141,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 100%;
   position: absolute;
   transform: translateZ(0) scale(1,1)!important;
@@ -205,21 +205,17 @@ footer {
   border-right: none;
 }
 
-.role-nav-item {
-  display: inline-block;
-}
-
 .role-nav-item a {
   color: #114757;
   font-size: 90%;
   font-weight: 900;
 }
 
-.role-nav-item ul li::after {
+ li.role-nav-item {
   display: inline-block;
+  border-right: solid 2px;
   color: #114757;
-  content: '|';
   font-size: 90%;
   font-weight: 900;
-  padding: 0 3px;
+  padding: 0 6px 0 2px;
 }
