@@ -197,12 +197,14 @@ footer {
 /* Mobile logo */
 
 .logo-3 {
-  background-image: url('../images/logo-horizontal.svg');
+  background-image: url('../images/logo-horizontal-white.svg');
   background-repeat: no-repeat;
   background-size: contain;
+  display: block;
   font-size: 0;
-  margin-top: -15px;
+  margin-top: 25px;
   height: 100%;
+  width: 150px;
 }
 
 .logo {
