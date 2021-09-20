@@ -237,3 +237,23 @@ footer {
   font-weight: 900;
   padding: 0 6px 0 2px;
 }
+
+@include breakpoint(medium only) {
+  .mobile-header {
+  max-height: 100vh;
+  overflow-y: scroll;
+  background: #202329;
+  max-height: 100vh;
+  padding-bottom: 56px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  }
+
+  .mobile-header .mobile-header-flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+}
