@@ -86,6 +86,7 @@ p, ul, li {
 }
 
 .header-wrapper {
+  margin-top: 15px;
   position: sticky;
   height: 30px;
 }
@@ -102,9 +103,10 @@ header {
   top: 0;
 }
 
-.shrink {
-  padding-top: 0;
-  height: 100px;
+.header-items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer {
@@ -123,8 +125,9 @@ footer {
 .logo-1 {
   font-size: 0;
   height: 100px;
+  margin: 10px 0;
   position: relative;
-  top: -5px;
+  top: 5px;
   transition: height ease-in;
   width: 180px;
 }
@@ -141,7 +144,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
-  margin-top: 10px;
+  margin-top: 20px;
   height: 100%;
   position: absolute;
   transform: translateZ(0) scale(1,1)!important;
@@ -188,12 +191,16 @@ footer {
 
 /* Navigation section */
 
+.role-nav-container {
+  justify-content: flex-end;
+}
+
 .role-nav {
-  padding-left: 0;
-  vertical-align: middle;
+  display: flex;
   float: right;
+  line-height: 1.2em;
   margin-bottom: 10px;
-  padding: 0 30px;
+  position: relative;
 }
 
 .role-nav ol {
