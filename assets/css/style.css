@@ -238,7 +238,7 @@ footer {
   padding: 0 6px 0 2px;
 }
 
-@include breakpoint(medium only) {
+@media screen and (max-width: 39.9375em) {
   .mobile-header {
   max-height: 100vh;
   overflow-y: scroll;
