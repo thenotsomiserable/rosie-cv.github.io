@@ -93,7 +93,8 @@ p, ul, li {
 }
 
 header {
-  background-color: #ced5f4;
+  background: rgb(206,213,244);
+  background: linear-gradient(36deg, rgba(206,213,244,1) 0%, rgba(95,9,121,1) 79%, rgba(23,86,110,1) 100%);
   width: 100%;
   /* animation magic */
   transition: all 0.4s ease-in-out;
@@ -237,15 +238,15 @@ footer {
 }
 
 .role-nav-item a {
-  color: #114757;
-  font-size: 90%;
-  font-weight: 900;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
  li.role-nav-item {
   display: inline-block;
   border-right: solid 2px;
-  color: #114757;
+  color: #FFFFFF;
   font-size: 90%;
   font-weight: 900;
   padding: 0 6px 0 2px;
@@ -263,7 +264,8 @@ footer {
   .mobile-header {
   max-height: 100vh;
   overflow-y: scroll;
-  background: #202329;
+  background: rgb(206,213,244);
+  background: linear-gradient(180deg, rgba(206,213,244,1) 0%, rgba(95,9,121,1) 9%, rgba(23,86,110,1) 99%);
   color: #FFFFFF;
   max-height: 100vh;
   padding-bottom: 56px;
