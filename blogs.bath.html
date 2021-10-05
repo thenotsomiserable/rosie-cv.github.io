@@ -81,6 +81,10 @@
       <h1>Challenges</h1>
       <p>Our main website is a bespoke build, so aligning existing features with WordPress structure and functionality
         was not totally straightforward.</p>
+      <p>There was some existing shrinking and swapping functionality in the old site, using a library called <a
+          href="https://github.com/imakewebthings/waypoints">Waypoints</a>. When I tried to repurpose this, the logo
+        swap would get confused and if you scrolled too quickly, it would assign the wrong one. The other issue was
+        that, the library's last update was in 2016. So it was time to seek an alternative.</p>
     </section>
     <!--Before and after-->
     <section>
@@ -99,16 +103,38 @@
               </figure>
             </li>
             <li class="orbit-slide">
+              <div>
+                <h3 class="text-center">Moving the logo to the primary header</h3>
+                <p class="text-center">The first step was to relocate the logo and resize the header. There was a lot of
+                  pixel pushing involved in getting everything to measure up, as well as changing the
+                <pre>$global-width</pre>.</p>
+                <p class="text-center">I also changed the behaviour of the search tray, so that it was open on medium
+                  breakpoint up.</p>
+              </div>
+            </li>
+            <li class="orbit-slide">
               <figure class="orbit-figure">
                 <img class="orbit-image" src="portfolio/blog-header-after.png?text=Slide-2" alt="Space">
                 <figcaption class="orbit-caption">The new blog header before scrolling</figcaption>
               </figure>
             </li>
             <li class="orbit-slide">
+              <div>
+                <h3 class="text-center">Adding the swap on scroll behaviour</h3>
+                <p class="text-center">After doing some research, I decided to add and remove classes on scroll. Because
+                  I'd been trying to repurpose what had been previously used, I ended up having to restructure elements
+                  in order to get it working smoothly.</p>
+                <p class="text-center">There are some tidy-up tasks I need to do, because changing the global site width
+                  has had some knock-on effects as you'd expect. But all in all, it was an interesting project and it's
+                  always good to see something you worked on in action.</p>
+              </div>
+            </li>
+            <li class="orbit-slide">
               <figure class="orbit-figure">
                 <img class="orbit-image" src="portfolio/blog-header-after-mini.png?text=Slide-3" alt="Space">
                 <figcaption class="orbit-caption">The new blog header after scrolling</figcaption>
               </figure>
+            </li>
           </ul>
         </div>
         <nav class="orbit-bullets">
@@ -118,6 +144,7 @@
           </button>
           <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
           <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+          <button data-slide="3"><span class="show-for-sr">Third slide details.</span></button>
         </nav>
       </div>
     </section>
