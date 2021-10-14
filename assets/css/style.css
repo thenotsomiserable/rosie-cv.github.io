@@ -283,3 +283,7 @@ footer {
     justify-content: space-around;
   }
 }
+
+.full-width-card {
+  width: 100%;
+}
