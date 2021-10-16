@@ -127,10 +127,16 @@ footer {
 
 @keyframes pulse {
   0% {
-    background-color: #001F3F;
+    background-color: #240c3d;
+  }
+  25% {
+    background-color: #9240ad;
+  }
+  75% {
+    background-color: #ad0a82;
   }
   100% {
-    background-color: #FF4136;
+    background-color: #041739;
   }
 }
 
