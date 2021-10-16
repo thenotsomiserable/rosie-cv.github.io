@@ -122,21 +122,42 @@ footer {
   margin-top: auto;
   padding-top: 20px;
 
-  animation: pulse 5s infinite;
+  animation: pulse 15s infinite;
 }
 
 @keyframes pulse {
   0% {
     background-color: #240c3d;
   }
-  25% {
-    background-color: #9240ad;
+  10% {
+    background-color: #5f0979;
   }
-  75% {
+  20% {
     background-color: #ad0a82;
   }
-  100% {
+  30% {
+    background-color: #9240ad;
+  }
+  40% {
+    background-color: #b780cf;
+  }
+  50% {
+    background-color: #ced5f4;
+  }
+  60% {
+    background-color: #439cbf;
+  }
+  70% {
+    background-color: #17556e;
+  }
+  80% {
+    background-color: #07445c;
+  }
+  90% {
     background-color: #041739;
+  }
+  100% {
+    background-color: #200d75;
   }
 }
 
