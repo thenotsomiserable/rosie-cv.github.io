@@ -122,7 +122,7 @@ footer {
   margin-top: auto;
   padding-top: 20px;
 
-  animation: pulse 15s infinite;
+  animation: pulse 30s infinite;
 }
 
 @keyframes pulse {
@@ -142,7 +142,7 @@ footer {
     background-color: #b780cf;
   }
   50% {
-    background-color: #ced5f4;
+    background-color: #504f99;
   }
   60% {
     background-color: #439cbf;
