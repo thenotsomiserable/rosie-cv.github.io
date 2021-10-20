@@ -17,9 +17,8 @@ section {
   padding: 10px 5px 0;
   width: 60%;
 }
-
-section:last-child {
-  padding-bottom: 20px;
+section :last-child {
+  padding-bottom: 40px;
 }
 
 .heading {
@@ -91,6 +90,10 @@ p, ul, li {
   color: #e4e1eb;
 }
 
+.tabs {
+  border: none;
+}
+
 .tabs-title > a {
   font-size: 16px;
 }
@@ -99,16 +102,12 @@ p, ul, li {
   border: solid teal 1px;
   border-radius: 20px 20px 0 0;
 }
-.tabs-title a :focus, .tabs-title a [aria-selected=true] {
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected=true] {
   background-color: #07445c;
   color: #e4e1eb;
 }
 
-/*.tabs-title > a:focus, .tabs-title>a[aria-selected=true]{
-  background-color: $dark-teal;
-  border-radius: 20px 20px 0 0;
-  color: $base-white;
-}*/
 footer {
   /*background: rgb(36,12,61);
   background: linear-gradient(180deg, rgba(36,12,61,1) 0%, rgba(63,13,77,1) 57%, rgba(9,44,57,1) 99%);*/
