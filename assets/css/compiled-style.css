@@ -23,7 +23,7 @@ section:last-child {
 }
 
 .heading {
-  border-bottom: solid #240c3d 2px;
+  border-bottom: solid #5f0979 2px;
 }
 
 #heading-section {
@@ -84,6 +84,20 @@ p, ul, li {
 
 .full-width-card {
   width: 100%;
+}
+
+.card-divider {
+  background-color: #240c3d;
+  color: #e4e1eb;
+}
+
+.tabs > p, ul, li {
+  font-size: 20px;
+}
+
+.tabs-title > a:focus {
+  background-color: #07445c;
+  color: #e4e1eb;
 }
 
 footer {
@@ -274,7 +288,7 @@ header {
 }
 
 .role-nav-item a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.2em;
   font-weight: 500;
 }
@@ -282,7 +296,7 @@ header {
 li.role-nav-item {
   display: inline-block;
   border-right: solid 2px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 90%;
   font-weight: 900;
   padding: 0 6px 0 2px;
@@ -302,7 +316,7 @@ li.role-nav-item {
     overflow-y: scroll;
     background: #773015;
     background: linear-gradient(180deg, #773015 0%, #5f0979 27%, #17566e 99%);
-    color: #FFFFFF;
+    color: #ffffff;
     max-height: 100vh;
     padding-bottom: 20px;
     position: fixed;
