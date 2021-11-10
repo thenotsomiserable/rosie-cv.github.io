@@ -282,11 +282,6 @@ header {
   height: 100%;
   width: 150px;
 }
-@media screen and (max-width: 39.9375em) {
-  .logo-3 {
-    margin-top: -30px;
-  }
-}
 
 .logo {
   min-height: 26px;
@@ -304,6 +299,11 @@ header {
   line-height: 1.2em;
   margin: 15px 0 0;
   position: relative;
+}
+@media screen and (max-width: 39.9375em) {
+  .role-nav {
+    display: none;
+  }
 }
 
 .role-nav ol {
