@@ -206,6 +206,12 @@ header {
   width: 20%;
   float: left;
 }
+@media screen and (max-width: 39.9375em) {
+  .brand {
+    width: 50px;
+    float: none;
+  }
+}
 
 .logo-1 {
   font-size: 0;
@@ -346,6 +352,19 @@ li.role-nav-item {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
+  }
+}
+@media screen and (min-width: 40em) {
+  .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 39.9375em) {
+  .menu-icon {
+    background-image: url("../images/hamburger-plain.svg");
+    display: block;
+    height: 40px;
+    width: 40px;
   }
 }
 
