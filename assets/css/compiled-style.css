@@ -98,6 +98,10 @@ p, ul, li {
   background-color: #17556e;
 }
 
+.tnsm-button:active {
+  background-color: #ad0a82;
+}
+
 .full-width-card {
   width: 100%;
 }
