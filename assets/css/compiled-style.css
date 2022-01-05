@@ -99,7 +99,7 @@ p, ul, li {
 }
 
 .tnsm-button:active {
-  background-color: #ad0a82;
+  border: solid 5px #ad0a82;
 }
 
 .full-width-card {
