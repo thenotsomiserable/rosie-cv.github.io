@@ -18,7 +18,7 @@ section {
   width: 60%;
 }
 
-section > :last-child {
+section:last-of-type {
   padding-bottom: 40px;
 }
 
