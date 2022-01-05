@@ -89,15 +89,13 @@ p, ul, li {
   padding: 15px;
   font-size: 20px;
   color: #e4e1eb;
+  text-decoration: none;
 }
 
 .tnsm-button:hover,
+.tnsm-button:focus,
 .tnsm-button:active {
   background-color: #17556e;
-}
-
-.tnsm-button:visited {
-  background-color: #504f99;
 }
 
 .full-width-card {
