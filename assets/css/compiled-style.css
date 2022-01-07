@@ -343,7 +343,7 @@ header {
 
 /* Mobile logo */
 .logo-3 {
-  background-image: url("../images/moth-logo-horizontal-white.svg");
+  background-image: url("../images/moth-logo-horizontal-light.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
