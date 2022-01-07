@@ -109,13 +109,18 @@ p, ul, li {
   border: solid 5px #ad0a82;
 }
 
+.card-divider {
+  background-color: #240c3d;
+  color: #e4e1eb;
+  height: 80px;
+}
+
 .full-width-card {
   width: 100%;
 }
 
-.card-divider {
-  background-color: #240c3d;
-  color: #e4e1eb;
+.project-card {
+  width: 100%;
 }
 
 .tabs {
