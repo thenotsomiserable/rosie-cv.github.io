@@ -404,5 +404,9 @@ li.role-nav-item {
     z-index: auto;
   }
 }
+.media-frame {
+  max-width: 650px;
+  margin: auto;
+}
 
 /*# sourceMappingURL=compiled-style.css.map */
