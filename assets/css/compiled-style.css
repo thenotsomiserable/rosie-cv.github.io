@@ -26,6 +26,12 @@ section {
     width: auto;
   }
 }
+@media screen and (max-width: 57em) {
+  section {
+    margin: 0 50px;
+    width: auto;
+  }
+}
 
 section:last-of-type {
   padding-bottom: 40px;
@@ -132,7 +138,9 @@ p, ul, li {
 }
 
 .project-card {
-  width: 100%;
+  max-width: 300px;
+  margin: 0 10px;
+  padding: 0 10px;
 }
 
 .tabs {
