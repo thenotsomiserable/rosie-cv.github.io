@@ -19,6 +19,13 @@ section {
   border-bottom: solid 2px #d9cdf7;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 39.9375em) {
+  section {
+    margin: 0 20px;
+    padding: 0;
+    width: auto;
+  }
+}
 
 section:last-of-type {
   padding-bottom: 40px;
@@ -35,6 +42,11 @@ section:first-of-type {
 
 #heading-section {
   margin-top: 130px;
+}
+@media screen and (max-width: 39.9375em) {
+  #heading-section {
+    margin-top: 50px;
+  }
 }
 
 footer p {
