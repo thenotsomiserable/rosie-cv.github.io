@@ -254,6 +254,12 @@ header {
   margin: auto;
   width: 60%;
 }
+@media screen and (max-width: 57em) {
+  .header-items {
+    margin: 0 50px;
+    width: auto;
+  }
+}
 
 .brand {
   width: 20%;
