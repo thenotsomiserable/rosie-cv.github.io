@@ -122,6 +122,10 @@ p, ul, li {
 .tnsm-button:focus,
 .tnsm-button:active {
   background-color: #17556e;
+}
+
+.tnsm-button:hover,
+.tnsm-button:focus {
   box-shadow: 2px 4px;
 }
 
