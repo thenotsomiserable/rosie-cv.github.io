@@ -133,6 +133,7 @@ p, ul, li {
 .tnsm-button:focus {
   border: solid 3px #ad0a82;
   box-shadow: 0px 0px;
+  padding: 14px;
 }
 
 .card-divider {
