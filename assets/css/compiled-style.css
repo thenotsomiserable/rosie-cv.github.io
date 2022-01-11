@@ -125,12 +125,12 @@ p, ul, li {
   cursor: pointer;
 }
 
-.tnsm-button:hover,
-.tnsm-button:focus {
+.tnsm-button:hover {
   box-shadow: 2px 4px;
 }
 
-.tnsm-button:active {
+.tnsm-button:active,
+.tnsm-button:focus {
   border: solid 3px #ad0a82;
   box-shadow: 0px 0px;
 }
