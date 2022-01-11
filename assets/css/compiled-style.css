@@ -122,6 +122,7 @@ p, ul, li {
 .tnsm-button:focus,
 .tnsm-button:active {
   background-color: #17556e;
+  box-shadow: 2px 4px;
 }
 
 .tnsm-button:active {
