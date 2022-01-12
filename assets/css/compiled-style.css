@@ -256,7 +256,8 @@ footer {
   color: white;
 }
 @media screen and (max-width: 39.9375em) {
-  .contact-details p ul li {
+  .contact-details p,
+.contact-details p a {
     font-size: 14px;
   }
 }
@@ -268,6 +269,9 @@ footer {
 
 .copyright {
   padding-right: 30px;
+}
+.copyright p {
+  line-height: 10px;
 }
 
 .header-wrapper, .footer-wrapper {
