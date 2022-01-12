@@ -231,12 +231,12 @@ footer {
   margin: auto;
   width: 60%;
 }
+
 @media screen and (max-width: 39.9375em) {
   .footer-items {
     margin: 0 20px;
   }
 }
-
 .contact-details {
   float: right;
   width: 30%;
