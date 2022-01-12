@@ -223,6 +223,7 @@ footer {
     background-color: #19095e;
   }
   @media screen and (max-width: 39.9375em) {
+    height: 75px;
     overflow-x: hidden;
   }
 }
@@ -236,11 +237,12 @@ footer {
 @media screen and (max-width: 39.9375em) {
   .footer-items {
     margin: 0 20px;
+    display: block;
   }
 }
 @media screen and (max-width: 57em) {
   .footer-items {
-    margin: 0 40px;
+    margin: 0 50px;
   }
 }
 
@@ -254,6 +256,11 @@ footer {
 @media screen and (max-width: 39.9375em) {
   .contact-details p ul li {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 39.9375em) {
+  .contact-details {
+    float: none;
   }
 }
 
