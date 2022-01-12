@@ -238,6 +238,11 @@ footer {
     margin: 0 20px;
   }
 }
+@media screen and (max-width: 57em) {
+  .footer-items {
+    margin: 0 40px;
+  }
+}
 
 .contact-details {
   float: right;
@@ -247,7 +252,7 @@ footer {
   color: white;
 }
 @media screen and (max-width: 39.9375em) {
-  .contact-details {
+  .contact-details p ul li {
     font-size: 14px;
   }
 }
