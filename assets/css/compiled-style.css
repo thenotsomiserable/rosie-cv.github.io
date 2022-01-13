@@ -5,6 +5,11 @@
 body {
   background-color: #ffffff;
 }
+@media screen and (max-width: 39.9375em) {
+  body {
+    width: 100%;
+  }
+}
 
 .container {
   display: flex;
