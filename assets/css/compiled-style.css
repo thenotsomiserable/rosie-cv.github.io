@@ -2,6 +2,16 @@
   font-family: "Molengo", sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -499,6 +509,7 @@ li.role-nav-item {
   .hamburger-icon {
     background-image: url("../images/hamburger-plain.svg");
     background-repeat: no-repeat;
+    cursor: pointer;
     height: 25px;
     left: 0px;
     margin: 20px;
