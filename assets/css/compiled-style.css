@@ -511,6 +511,7 @@ li.role-nav-item {
 @media screen and (max-width: 39.9375em) {
   .hero {
     margin-top: 25px;
+    min-width: 338px;
   }
 }
 
@@ -543,11 +544,11 @@ li.role-nav-item {
   }
 
   h1 {
-    font-size: 1.8em;
+    font-size: 1.8em !important;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.5em !important;
   }
 }
 .media-frame {
