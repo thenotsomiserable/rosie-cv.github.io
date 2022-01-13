@@ -520,10 +520,13 @@ li.role-nav-item {
   text-align: center;
 }
 
-.hero-image h1, .hero-image h2 {
-  color: #ffffff;
+.hero-text {
   background-color: #131430;
   opacity: 80%;
+}
+
+.hero-image h1, .hero-image h2 {
+  color: #ffffff;
   padding: 40px;
 }
 
