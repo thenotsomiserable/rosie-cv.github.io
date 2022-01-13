@@ -209,6 +209,7 @@ p, ul, li {
   background-color: #eef0f8;
   display: flex;
   min-height: 250px;
+  width: 100%;
 }
 
 .flex-justify-item {
@@ -219,23 +220,23 @@ p, ul, li {
   width: 200px;
 }
 
-.flex-demo-start {
+#flex-demo-start {
   justify-content: flex-start;
 }
 
-.flex-demo-end {
+#flex-demo-end {
   justify-content: flex-end;
 }
 
-.flex-demo-center {
+#flex-demo-center {
   justify-content: center;
 }
 
-.flex-demo-space-around {
+#flex-demo-space-around {
   justify-content: space-around;
 }
 
-.flex-demo-space-between {
+#flex-demo-space-between {
   justify-content: space-between;
 }
 
