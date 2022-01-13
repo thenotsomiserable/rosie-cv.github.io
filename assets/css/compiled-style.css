@@ -205,11 +205,16 @@ p, ul, li {
   padding: 20px 20px 10px 20px;
 }
 
-.flex-justify-container {
+.flex-justify-container,
+.flex-align-container {
   background-color: #eef0f8;
   display: flex;
   min-height: 200px;
   width: 100%;
+}
+.flex-justify-container .flex-align-container,
+.flex-align-container .flex-align-container {
+  justify-content: center;
 }
 
 .flex-justify-item {
