@@ -215,22 +215,27 @@ p, ul, li {
   background-color: #17556e;
   color: #ad0a82;
   font-size: 1.5rem;
-  min-width: 200px;
-  min-height: 200px;
+  height: 200px;
+  width: 200px;
 }
-.flex-justify-item .flex-demo-start {
+
+.flex-demo-start {
   justify-content: flex-start;
 }
-.flex-justify-item .flex-demo-end {
+
+.flex-demo-end {
   justify-content: flex-end;
 }
-.flex-justify-item .flex-demo-center {
+
+.flex-demo-center {
   justify-content: center;
 }
-.flex-justify-item .flex-demo-space-around {
+
+.flex-demo-space-around {
   justify-content: space-around;
 }
-.flex-justify-item .flex-demo-space-between {
+
+.flex-demo-space-between {
   justify-content: space-between;
 }
 
