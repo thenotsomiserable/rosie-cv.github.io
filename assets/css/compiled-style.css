@@ -511,7 +511,6 @@ li.role-nav-item {
 .hero {
   overflow: hidden;
   margin-top: 85px;
-  max-width: 1200px;
   width: 100%;
 }
 @media screen and (max-width: 39.9375em) {
@@ -537,6 +536,7 @@ li.role-nav-item {
   opacity: 80%;
   padding: 40px;
   min-width: 338px;
+  max-width: 1200px;
   width: 80%;
 }
 
