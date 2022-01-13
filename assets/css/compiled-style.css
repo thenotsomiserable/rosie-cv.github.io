@@ -212,8 +212,8 @@ p, ul, li {
   min-height: 200px;
   width: 100%;
 }
-.flex-justify-container .flex-align-container,
-.flex-align-container .flex-align-container {
+
+.flex-align-container {
   justify-content: center;
 }
 
