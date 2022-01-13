@@ -510,12 +510,12 @@ li.role-nav-item {
     background-image: url("../images/hamburger-plain.svg");
     background-repeat: no-repeat;
     cursor: pointer;
-    height: 25px;
+    height: 30px;
     left: 0px;
     margin: 20px;
     position: absolute;
-    top: 4px;
-    width: 25px;
+    top: 0;
+    width: 30px;
     z-index: auto;
   }
 }
@@ -541,6 +541,7 @@ li.role-nav-item {
 }
 
 .mobile-navigation ul {
+  display: block;
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
