@@ -262,7 +262,7 @@ footer {
 @media screen and (max-width: 39.9375em) {
   .contact-details p,
 .contact-details p a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 39.9375em) {
@@ -275,6 +275,7 @@ footer {
   padding-right: 30px;
 }
 .copyright p {
+  font-size: 0.8rem;
   line-height: 10px;
 }
 
