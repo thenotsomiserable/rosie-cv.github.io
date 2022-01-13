@@ -523,11 +523,12 @@ li.role-nav-item {
 .hero-text {
   background-color: #131430;
   opacity: 80%;
+  padding: 40px;
+  width: 80%;
 }
 
 .hero-image h1, .hero-image h2 {
   color: #ffffff;
-  padding: 40px;
 }
 
 .media-frame {
