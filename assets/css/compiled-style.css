@@ -55,6 +55,10 @@ section:first-of-type {
   }
 }
 
+html {
+  font-size: 18px;
+}
+
 footer p {
   color: #ffffff;
 }
