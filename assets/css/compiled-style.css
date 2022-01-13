@@ -274,9 +274,11 @@ footer {
 .copyright {
   padding-right: 30px;
 }
-.copyright p {
-  font-size: 0.8rem;
-  line-height: 10px;
+@media screen and (max-width: 39.9375em) {
+  .copyright p {
+    font-size: 0.8rem;
+    line-height: 10px;
+  }
 }
 
 .header-wrapper, .footer-wrapper {
