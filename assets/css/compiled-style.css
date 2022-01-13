@@ -71,40 +71,40 @@ a {
 }
 
 h1 {
-  font-size: 34px;
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.3rem;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 1.2rem;
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 p, ul, li {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .heading h1 {
-  font-size: 44px;
+  font-size: 2.4rem;
 }
 
 .heading h2 {
-  font-size: 38px;
+  font-size: 2.1rem;
 }
 
 .tnsm-button {
@@ -113,7 +113,7 @@ p, ul, li {
   border-radius: 2em;
   box-shadow: 2px 4px;
   padding: 15px;
-  font-size: 20px;
+  font-size: 1.1rem;
   color: #e4e1eb;
   text-decoration: none;
 }
@@ -157,7 +157,7 @@ p, ul, li {
 }
 
 .tabs-title > a {
-  font-size: 16px;
+  font-size: 0.8rem;
 }
 
 .tabs-title a {
@@ -258,7 +258,7 @@ footer {
 @media screen and (max-width: 39.9375em) {
   .contact-details p,
 .contact-details p a {
-    font-size: 14px;
+    font-size: 0.7rem;
   }
 }
 @media screen and (max-width: 39.9375em) {
@@ -428,7 +428,7 @@ header {
 
 .role-nav-item a {
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
