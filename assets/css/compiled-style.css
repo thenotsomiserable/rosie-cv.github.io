@@ -501,7 +501,7 @@ li.role-nav-item {
 }
 
 .hero-image {
-  background-image: url "../images/white-horse-trail.jpg";
+  background-image: url("../images/white-horse-trail.jpg");
   height: 100%;
   width: auto;
 }
