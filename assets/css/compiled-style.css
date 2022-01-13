@@ -111,6 +111,14 @@ p, ul, li {
   font-size: 2.1rem;
 }
 
+.hero-image h1 {
+  font-size: 2.4rem;
+}
+
+.hero-image h2 {
+  font-size: 2.1rem;
+}
+
 .tnsm-button {
   background-color: #07445c;
   border: solid 3px #9240ad;
@@ -501,9 +509,20 @@ li.role-nav-item {
 }
 
 .hero-image {
+  align-items: center;
   background-image: url("../images/white-horse-trail.jpg");
-  height: 100%;
-  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-image h1 {
+  color: #ffffff;
+  background-color: #131430;
+  opacity: 80%;
 }
 
 .media-frame {
