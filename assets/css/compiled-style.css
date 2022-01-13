@@ -208,7 +208,7 @@ p, ul, li {
 .flex-justify-container {
   background-color: #eef0f8;
   display: flex;
-  min-height: 250px;
+  min-height: 200px;
   width: 100%;
 }
 
@@ -216,9 +216,12 @@ p, ul, li {
   background-color: #17556e;
   border: solid 2px #ad0a82;
   color: #ad0a82;
-  font-size: 1.5rem;
-  height: 200px;
-  width: 200px;
+  font-size: 2rem;
+  font-weight: 900;
+  height: 150px;
+  padding: auto;
+  text-align: center;
+  width: 150px;
 }
 
 #flex-demo-start {
@@ -239,6 +242,22 @@ p, ul, li {
 
 #flex-demo-space-between {
   justify-content: space-between;
+}
+
+#flex-align-start {
+  align-items: flex-start;
+}
+
+#flex-align-end {
+  align-items: flex-end;
+}
+
+#flex-align-center {
+  align-items: center;
+}
+
+#flex-align-baseline {
+  align-items: baseline;
 }
 
 footer {
