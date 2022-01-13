@@ -505,7 +505,13 @@ li.role-nav-item {
 }
 .hero {
   overflow: hidden;
+  margin-top: 85px;
   width: 100%;
+}
+@media screen and (max-width: 39.9375em) {
+  .hero {
+    margin-top: 25px;
+  }
 }
 
 .hero-image {
@@ -531,6 +537,19 @@ li.role-nav-item {
   color: #ffffff;
 }
 
+@media screen and (max-width: 39.9375em) {
+  .hero-text {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
 .media-frame {
   max-width: 650px;
   margin: auto;
