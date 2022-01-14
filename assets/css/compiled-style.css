@@ -571,6 +571,7 @@ li.role-nav-item {
     background-image: url("../images/hamburger-plain.svg");
     background-repeat: no-repeat;
     cursor: pointer;
+    font-size: 0;
     height: 30px;
     left: 10px;
     margin: 20px;
