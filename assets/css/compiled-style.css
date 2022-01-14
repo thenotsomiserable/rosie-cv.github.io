@@ -508,22 +508,26 @@ header {
   }
 }
 
-.role-nav ol {
+.role-nav ul,
+.mobile-navigation-items ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.role-nav ul li:last-child {
+.role-nav ul li:last-child,
+.mobile-navigation-items ul li:last-child {
   border-right: none;
 }
 
-.role-nav-item a .mobile-navigation-items a {
+.role-nav-item a,
+.mobile-navigation-items a {
   color: #ffffff;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-li.role-nav-item {
+li.role-nav-item,
+li.mobile-navigation-items {
   display: inline-block;
   border-right: solid 2px;
   color: #ffffff;
