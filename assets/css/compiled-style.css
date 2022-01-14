@@ -376,6 +376,11 @@ footer {
   height: 30px;
   z-index: 2;
 }
+@media screen and (max-width: 39.9375em) {
+  .header-wrapper {
+    height: 50px;
+  }
+}
 
 header {
   background: #ced5f4;
@@ -527,7 +532,7 @@ header {
 }
 
 li.role-nav-item,
-li.mobile-navigation-items {
+.mobile-navigation-items li {
   display: inline-block;
   border-right: solid 2px;
   color: #ffffff;
@@ -547,7 +552,7 @@ li.mobile-navigation-items {
   }
 
   .mobile-navigation-items {
-    padding: 10px 20px 0;
+    padding: 10px 20px;
   }
 
   .mobile-brand {
@@ -565,6 +570,7 @@ li.mobile-navigation-items {
     background: linear-gradient(180deg, #773015 0%, #5f0979 27%, #17566e 99%);
     color: #ffffff;
     max-height: 100vh;
+    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
