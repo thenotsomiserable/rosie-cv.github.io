@@ -479,7 +479,7 @@ header {
   background-size: contain;
   display: block;
   font-size: 0;
-  margin-top: 20px;
+  margin: 20px 0 0 20px;
   padding-bottom: 30px;
   height: 100%;
   width: 180px;
@@ -553,7 +553,6 @@ li.mobile-navigation-items {
   .mobile-brand {
     align-content: center;
     width: 100%;
-    margin-top: 20px;
   }
 
   .mobile-brand {
@@ -587,6 +586,7 @@ li.mobile-navigation-items {
   }
 
   .mobile-navigation-items ul li {
+    display: inline;
     font-size: 0.3rem;
     margin: 0;
     padding: 14px 18px;
