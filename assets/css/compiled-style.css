@@ -537,18 +537,31 @@ li.role-nav-item {
     display: none;
   }
 
+  .mobile-navigation-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-navigation-items {
+    padding: 10px 20px 0;
+  }
+
+  .mobile-brand {
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
   .mobile-brand {
     align-content: center;
   }
 
   .mobile-header {
-    max-height: 100vh;
     overflow-y: scroll;
     background: #773015;
     background: linear-gradient(180deg, #773015 0%, #5f0979 27%, #17566e 99%);
     color: #ffffff;
     max-height: 100vh;
-    padding-bottom: 20px;
     position: fixed;
     top: 0;
     width: 100%;
@@ -560,15 +573,38 @@ li.role-nav-item {
     flex-flow: wrap;
     justify-content: space-around;
   }
+
+  .mobile-navigation-items ul {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile-navigation-items ul li {
+    font-size: 0.3rem;
+    margin: 0;
+    padding: 14px 18px;
+  }
+
+  .mobile-navigation-items ul a {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: color 0.25s ease;
+  }
 }
-@media screen and (min-width: 39.94em) {
+/* @media screen and (min-width: 39.94em) {
   .hamburger-icon {
     display: none;
   }
 }
+
 @media screen and (max-width: 39.9375em) {
+  // Mobile navigation label
   .hamburger-icon {
-    background-image: url("../images/hamburger-plain.svg");
+    background-image: url('../images/hamburger-plain.svg');
     background-repeat: no-repeat;
     cursor: pointer;
     font-size: 0;
@@ -581,18 +617,21 @@ li.role-nav-item {
     z-index: auto;
   }
 }
+
+//Mobile navigation
 .mobile-navigation {
   order: 3;
   width: 100%;
 }
 
+// Mobile navigation items
 .mobile-nav-items {
   max-height: 0;
   overflow: hidden;
   position: relative;
   text-align: center;
   top: 56px;
-  transition: max-height 0.5s ease-in-out;
+  transition: max-height .5s ease-in-out;
   width: 100%;
 }
 
@@ -620,19 +659,10 @@ li.role-nav-item {
   color: #fff;
   font-size: 1rem;
   line-height: 1.5rem;
-  transition: color 0.25s ease;
+  transition: color .25s ease;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .mobile-navigation-container {
-    display: flex;
-    justify-content: center;
-  }
-
-  .mobile-navigation-items {
-    padding: 10px 20px 0;
-  }
-}
+*/
 .hero {
   overflow: hidden;
   margin-top: 85px;
