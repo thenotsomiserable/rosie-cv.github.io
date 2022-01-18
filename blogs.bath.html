@@ -84,8 +84,17 @@
         was not totally straightforward.</p>
       <p>There was some existing shrinking and swapping functionality in the old site, using a library called <a
           href="https://github.com/imakewebthings/waypoints">Waypoints</a>. When I tried to repurpose this, the logo
-        swap would get confused and if you scrolled too quickly, it would assign the wrong one. It also introduced a bug which caused the header to flicker. The other issue was
-        that, the library's last update was in 2016, so we couldn't securely rely on it's future compatability even if we resolved the current bugs. So it was time to seek an alternative.</p>
+        swap would get confused and if you scrolled too quickly, it would assign the wrong one. It also introduced a bug
+        that caused the header to flicker. Also, as the library's last update was in 2016, we couldn't securely rely on
+        its future compatibility even if
+        we resolved the current bugs. So it was time to seek an alternative rather than spend time on something which
+        would need to be replaced later on.</p>
+      <p>I did some research into similar functionality, looking at resources on sites such as <a
+          href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>, <a href="https://css-tricks.com/">CSS-Tricks</a>
+        and <a href="https://codepen.io/">CodePen</a>. I also looked at forum discussions to see if I could try to avoid
+        problems that others had encountered.</p>
+      <p>I tried a few methods, but settled on using JavaScript to swap out the classes on scroll. I used CSS to refine
+        the transitions and improve the functionality so that the change was not jarring.</p>
     </section>
     <!--Tabbed section-->
     <section>
