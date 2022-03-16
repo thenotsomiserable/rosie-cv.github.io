@@ -145,8 +145,9 @@ footer {
 }
 
 .exhibit img {
-  object-fit: contain;
+  border-radius: 50%;
   margin: 5px 0 60px;
+  object-fit: contain;
 }
 
 .exhibit-link {
