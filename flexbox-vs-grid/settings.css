@@ -4,17 +4,16 @@
   --base-grey: #16111c;
   --base-white: #f4ebff;
   --base-black: #120310;
-
   --dark-purple: #560FAD;
   --hot-pink: #FA13E2;
   --cool-blue: #1C9BF5;
   --cool-blue-dark: #145685;
   --grass-green: #07A835;
   --pale-green: #74FA9B;
-
   --button-gradient: radial-gradient(closest-side, #1C9BF5, #145685);
   --button-reverse-gradient: radial-gradient(closest-side, #145685, #1C9BF5);
 }
+
 
 /****  Core structure  ****/
 
@@ -22,10 +21,14 @@ body {
   margin: 0 -20px;
 }
 
-header, footer {
-  border-top: solid 1px var(--base-grey);
+header,
+footer .content {
   max-width: 1200px;
   margin: auto;
+}
+
+footer {
+  border-top: solid 1px var(--base-grey);
 }
 
 section {
@@ -40,7 +43,8 @@ section {
   margin: auto;
 }
 
-.main-content, .content {
+.main-content,
+.content {
   padding: 0 60px;
 }
 
@@ -50,6 +54,7 @@ section {
   }
 }
 
+
 /****  Sections  ****/
 
 #mission-statement {
@@ -57,7 +62,7 @@ section {
 }
 
 #photo-wall {
- background-color: var(--base-white);
+  background-color: var(--base-white);
 }
 
 #team {
