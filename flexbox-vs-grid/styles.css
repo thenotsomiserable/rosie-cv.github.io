@@ -1,6 +1,5 @@
 @import "settings.css";
 @import "typography.css";
-
 header .content {
   align-items: center;
   display: flex;
@@ -53,7 +52,7 @@ header .content {
 }
 
 .brand {
-  background-image: url('./images/moth-logo-large.svg');
+  background-image: url('../assets/images/moth-logo-large.svg');
   background-repeat: no-repeat;
   display: block;
   height: 100px;
@@ -83,16 +82,13 @@ a.icon {
     align-self: center;
     margin: auto;
   }
-
   .logo {
     display: block;
     width: 100%;
   }
-
   header .content {
     display: block;
   }
-
   .desktop {
     display: none;
   }
@@ -106,11 +102,13 @@ footer {
   width: 100%;
 }
 
-.section-heading, .lead-section-heading {
+.section-heading,
+.lead-section-heading {
   text-align: center;
   margin: auto;
   width: 90%;
 }
+
 
 /* Exhibits section */
 
@@ -134,15 +132,15 @@ footer {
 
 @media (max-width: 500px) {
   .exhibit {
-  max-height: 300px;
-  transition: ease-in-out .5s;
+    max-height: 300px;
+    transition: ease-in-out .5s;
   }
 }
 
 @media (max-width: 400px) {
   .exhibit {
-  max-height: 200px;
-  transition: ease-in-out .5s;
+    max-height: 200px;
+    transition: ease-in-out .5s;
   }
 }
 
@@ -177,6 +175,7 @@ footer {
   box-shadow: 1px 1px 2px var(--base-grey);
 }
 
+
 /* Team section */
 
 .team-profiles {
@@ -198,31 +197,28 @@ footer {
 }
 
 @media (max-width: 950px) {
-.team-profiles {
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(1fr, 3);
-  transition: ease-in-out .5s;
+  .team-profiles {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 3);
+    transition: ease-in-out .5s;
   }
 }
 
 @media (max-width: 600px) {
   .team-profiles {
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(1fr, 5);
-  transition: ease-in-out .5s;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 5);
+    transition: ease-in-out .5s;
   }
-
   p {
     margin: 10px 0;
     transition: ease-in-out .5s;
   }
-
   h2 {
     margin: 20px 0;
     transition: ease-in-out .5s;
   }
 }
-
 
 .team-link {
   background-color: var(--dark-purple);
