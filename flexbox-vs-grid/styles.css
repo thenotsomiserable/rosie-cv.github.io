@@ -43,7 +43,10 @@ header .content {
 
 .mobile ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  margin: 5px 0;
+  width: 80%;
 }
 
 .desktop ul {
@@ -77,6 +80,30 @@ a.icon {
 }
 
 @media (max-width: 768px) {
+  .content {
+    padding: 0 0 5px;
+  }
+  .content ul li {
+    background: none;
+    border-radius: 0;
+    display: inline;
+    margin: auto 10px;
+    padding: 5px 6px;
+  }
+  .content ul li:hover {
+    background: none;
+  }
+  .content ul li:active {
+    background: none;
+  }
+  .content a {
+    color: var(--cool-blue-dark);
+    text-decoration: none;
+  }
+  .content a:hover,
+  .content a:active {
+    color: var(--cool-blue);
+  }
   .brand {
     display: flex;
     align-self: center;
