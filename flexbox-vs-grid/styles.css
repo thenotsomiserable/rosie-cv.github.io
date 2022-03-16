@@ -80,8 +80,7 @@ a.icon {
 }
 
 @media (min-width: 768px) {
-  header .content,
-  footer .content {
+  header .content {
     margin: 0 40px;
   }
 }
@@ -122,6 +121,9 @@ a.icon {
   }
   header .content {
     display: block;
+  }
+  footer .content {
+    margin: 0 40px;
   }
   .desktop {
     display: none;
