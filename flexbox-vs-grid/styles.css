@@ -80,7 +80,8 @@ a.icon {
 }
 
 @media (min-width: 768px) {
-  header content {
+  header .content,
+  footer .content {
     margin: 0 40px;
   }
 }
