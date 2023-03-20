@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../catalogues"
+		},
+		{
+			"path": "../flexbox-vs-grid"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../portfolio"
+		}
+	]
+}
