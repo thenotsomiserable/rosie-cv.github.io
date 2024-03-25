@@ -180,7 +180,7 @@ footer {
   margin: 10px 0;
   position: relative;
   top: 5px;
-  transition: height ease-in;
+  transition: all 0.5s ease-in;
   width: 180px;
 }
 
@@ -189,6 +189,7 @@ footer {
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
+  transition: all 0.5s ease-in;
 }
 
 .logo-2 {
