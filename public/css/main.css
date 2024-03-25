@@ -327,13 +327,16 @@ li.role-nav-item {
   content: "";
   background-color: #ffffff;
   position: absolute;
-  top: 0;
+  top: 2px;
   right: 0;
-  height: 100%;
-  width: 0;
+  height: calc(100% - 4px);
+  width: 1px;
 }
-.mobile-navigation-items ul li:hover, .mobile-navigation-items ul li:focus {
+.mobile-navigation-items ul li:hover a, .mobile-navigation-items ul li:focus a {
   text-decoration: underline;
+}
+.mobile-navigation-items ul li a {
+  text-decoration: none;
 }
 
 .visually-hidden {
