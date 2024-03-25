@@ -143,7 +143,7 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
-  margin-top: -15px;
+  top: 10px;
   height: 100%;
   position: absolute;
   transform: translateZ(0) scale(1, 1) !important;
@@ -169,9 +169,8 @@ header {
   background-size: contain;
   display: block;
   font-size: 0;
-  margin-top: 30px;
   padding-bottom: 20px;
-  height: 100%;
+  height: 30px;
   width: 150px;
 }
 
@@ -195,8 +194,6 @@ header {
   background: rgb(119, 48, 21);
   background: linear-gradient(180deg, rgb(119, 48, 21) 0%, rgb(95, 9, 121) 27%, rgb(23, 86, 110) 99%);
   color: #FFFFFF;
-  max-height: 100vh;
-  padding-bottom: 20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -214,6 +211,8 @@ header {
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
 }
 
 footer {
@@ -308,6 +307,33 @@ li.role-nav-item {
   font-size: 90%;
   font-weight: 900;
   padding: 0 6px 0 2px;
+}
+
+.mobile-navigation-items ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+.mobile-navigation-items ul li {
+  color: #ffffff;
+  text-decoration: none;
+}
+.mobile-navigation-items ul li:not(:last-child) {
+  margin-right: 5px;
+  padding-right: 5px;
+  position: relative;
+}
+.mobile-navigation-items ul li:not(:last-child)::after {
+  content: "";
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+}
+.mobile-navigation-items ul li:hover, .mobile-navigation-items ul li:focus {
+  text-decoration: underline;
 }
 
 .visually-hidden {

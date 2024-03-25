@@ -34,3 +34,39 @@ li.role-nav-item {
     font-weight: 900;
     padding: 0 6px 0 2px;
 }
+
+.mobile-navigation {
+    &-items {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            li {
+                color: #ffffff;
+                text-decoration: none;
+
+                &:not(:last-child) {
+                    margin-right: 5px;
+                    padding-right: 5px;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        background-color: #ffffff;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        height: 100%;
+                        width: 0;
+                    }
+                }
+
+                &:hover,
+                &:focus {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
