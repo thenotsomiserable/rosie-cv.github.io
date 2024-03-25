@@ -1,0 +1,266 @@
+* {
+  font-family: "Molengo", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  margin: auto;
+  padding: 10px 5px 0;
+  width: 60%;
+}
+
+section:last-child {
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #383838;
+  font-family: "Molengo", sans-serif;
+}
+
+a {
+  color: #1F596B;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p, ul, li {
+  font-size: 18px;
+}
+
+.heading h1 {
+  font-size: 44px;
+}
+
+.heading h2 {
+  font-size: 38px;
+}
+
+.heading {
+  border-bottom: solid rgb(135, 97, 170) 2px;
+}
+
+#heading-section {
+  margin-top: 130px;
+}
+
+.header-wrapper,
+.footer-wrapper {
+  margin: auto;
+  width: 100%;
+}
+
+.header-wrapper {
+  margin-top: 15px;
+  position: sticky;
+  height: 30px;
+}
+
+header {
+  background: rgb(206, 213, 244);
+  background: linear-gradient(36deg, rgb(206, 213, 244) 0%, rgb(95, 9, 121) 79%, rgb(23, 86, 110) 100%);
+  width: 100%;
+  /* animation magic */
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+}
+
+.header-items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+
+.brand {
+  width: 20%;
+  float: left;
+}
+
+.logo-1 {
+  font-size: 0;
+  height: 100px;
+  margin: 10px 0;
+  position: relative;
+  top: 5px;
+  transition: all 0.5s ease-in;
+  width: 180px;
+}
+
+.logo-1-background {
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  transition: all 0.5s ease-in;
+}
+
+.logo-2 {
+  background-image: url("../images/logo-horizontal.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  margin-top: -15px;
+  height: 100%;
+  position: absolute;
+  transform: translateZ(0) scale(1, 1) !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  width: 200px;
+  animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Mobile logo */
+.logo-3 {
+  background-image: url("../images/logo-horizontal-white.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  font-size: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  height: 100%;
+  width: 150px;
+}
+
+.logo {
+  min-height: 26px;
+  line-height: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  header {
+    display: none;
+  }
+  .mobile-brand {
+    align-content: center;
+  }
+  .mobile-header {
+    max-height: 100vh;
+    overflow-y: scroll;
+    background: rgb(119, 48, 21);
+    background: linear-gradient(180deg, rgb(119, 48, 21) 0%, rgb(95, 9, 121) 27%, rgb(23, 86, 110) 99%);
+    color: #FFFFFF;
+    max-height: 100vh;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .mobile-header .mobile-header-flex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
+}
+footer {
+  /*background: rgb(36,12,61);
+  background: linear-gradient(180deg, rgba(36,12,61,1) 0%, rgba(63,13,77,1) 57%, rgba(9,44,57,1) 99%);*/
+  height: 75px;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 20px;
+  animation: pulse 30s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #240c3d;
+  }
+  10% {
+    background-color: #5f0979;
+  }
+  20% {
+    background-color: #ad0a82;
+  }
+  30% {
+    background-color: #9240ad;
+  }
+  40% {
+    background-color: #b780cf;
+  }
+  50% {
+    background-color: #504f99;
+  }
+  60% {
+    background-color: #439cbf;
+  }
+  70% {
+    background-color: #17556e;
+  }
+  80% {
+    background-color: #07445c;
+  }
+  90% {
+    background-color: #041739;
+  }
+  100% {
+    background-color: #200d75;
+  }
+}
+.footer-items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 60%;
+}
+
+.full-width-card {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map*/

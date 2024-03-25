@@ -1,0 +1,149 @@
+.header-wrapper,
+.footer-wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.header-wrapper {
+    margin-top: 15px;
+    position: sticky;
+    height: 30px;
+}
+
+header {
+    background: rgb(206, 213, 244);
+    background: linear-gradient(36deg, rgba(206, 213, 244, 1) 0%, rgba(95, 9, 121, 1) 79%, rgba(23, 86, 110, 1) 100%);
+    width: 100%;
+    /* animation magic */
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+}
+
+.header-items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+
+.brand {
+    width: 20%;
+    float: left;
+}
+
+.logo-1 {
+    font-size: 0;
+    height: 100px;
+    margin: 10px 0;
+    position: relative;
+    top: 5px;
+    transition: all 0.5s ease-in;
+    width: 180px;
+}
+
+.logo-1-background {
+    background-image: url('../images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    transition: all 0.5s ease-in;
+}
+
+.logo-2 {
+    background-image: url('../images/logo-horizontal.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 0;
+    margin-top: -15px;
+    height: 100%;
+    position: absolute;
+    transform: translateZ(0) scale(1, 1) !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    width: 200px;
+    animation: fadeIn ease .5s;
+    -webkit-animation: fadeIn ease .5s;
+    -moz-animation: fadeIn ease .5s;
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+/* Mobile logo */
+.logo-3 {
+    background-image: url('../images/logo-horizontal-white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-size: 0;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    height: 100%;
+    width: 150px;
+}
+
+.logo {
+    min-height: 26px;
+    line-height: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+    header {
+        display: none;
+    }
+
+    .mobile-brand {
+        align-content: center;
+    }
+
+    .mobile-header {
+        max-height: 100vh;
+        overflow-y: scroll;
+        background: rgb(119, 48, 21);
+        background: linear-gradient(180deg, rgba(119, 48, 21, 1) 0%, rgba(95, 9, 121, 1) 27%, rgba(23, 86, 110, 1) 99%);
+        color: #FFFFFF;
+        max-height: 100vh;
+        padding-bottom: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .mobile-header .mobile-header-flex {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+}

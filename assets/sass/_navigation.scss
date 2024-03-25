@@ -1,0 +1,36 @@
+/* Navigation section */
+.role-nav-container {
+    justify-content: flex-end;
+}
+
+.role-nav {
+    display: flex;
+    float: right;
+    line-height: 1.2em;
+    margin: 15px 0 0;
+    position: relative;
+}
+
+.role-nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.role-nav ul li:last-child {
+    border-right: none;
+}
+
+.role-nav-item a {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+li.role-nav-item {
+    display: inline-block;
+    border-right: solid 2px;
+    color: #FFFFFF;
+    font-size: 90%;
+    font-weight: 900;
+    padding: 0 6px 0 2px;
+}
