@@ -180,32 +180,42 @@ header {
   line-height: 0;
 }
 
-@media screen and (max-width: 39.9375em) {
+header {
+  display: none;
+}
+@media (min-width: 768px) {
   header {
-    display: none;
-  }
-  .mobile-brand {
-    align-content: center;
-  }
-  .mobile-header {
-    max-height: 100vh;
-    overflow-y: scroll;
-    background: rgb(119, 48, 21);
-    background: linear-gradient(180deg, rgb(119, 48, 21) 0%, rgb(95, 9, 121) 27%, rgb(23, 86, 110) 99%);
-    color: #FFFFFF;
-    max-height: 100vh;
-    padding-bottom: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-  .mobile-header .mobile-header-flex {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
+    display: block;
   }
 }
+
+.mobile-header {
+  max-height: 100vh;
+  overflow-y: scroll;
+  background: rgb(119, 48, 21);
+  background: linear-gradient(180deg, rgb(119, 48, 21) 0%, rgb(95, 9, 121) 27%, rgb(23, 86, 110) 99%);
+  color: #FFFFFF;
+  max-height: 100vh;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+@media (min-width: 768px) {
+  .mobile-header {
+    display: none;
+  }
+}
+.mobile-header .mobile-brand {
+  align-content: center;
+}
+.mobile-header .mobile-header-flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
 footer {
   /*background: rgb(36,12,61);
   background: linear-gradient(180deg, rgba(36,12,61,1) 0%, rgba(63,13,77,1) 57%, rgba(9,44,57,1) 99%);*/
