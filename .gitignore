@@ -2,4 +2,4 @@
 scss
 assets/css/compiled-css.map
 not-in-use
-node_modules
+node_modules/
