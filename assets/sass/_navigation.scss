@@ -43,9 +43,6 @@ li.role-nav-item {
             display: flex;
 
             li {
-                color: #ffffff;
-                text-decoration: none;
-
                 &:not(:last-child) {
                     margin-right: 10px;
                     padding-right: 10px;
@@ -70,6 +67,7 @@ li.role-nav-item {
                 }
 
                 a {
+                    color: #ffffff;
                     text-decoration: none;
                 }
             }

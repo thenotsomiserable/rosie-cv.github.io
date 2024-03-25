@@ -314,10 +314,6 @@ li.role-nav-item {
   margin: 0;
   display: flex;
 }
-.mobile-navigation-items ul li {
-  color: #ffffff;
-  text-decoration: none;
-}
 .mobile-navigation-items ul li:not(:last-child) {
   margin-right: 10px;
   padding-right: 10px;
@@ -336,6 +332,7 @@ li.role-nav-item {
   text-decoration: underline;
 }
 .mobile-navigation-items ul li a {
+  color: #ffffff;
   text-decoration: none;
 }
 
