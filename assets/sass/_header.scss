@@ -67,9 +67,9 @@ header {
     transform: translateZ(0) scale(1, 1) !important;
     -webkit-transform: translate3d(0, 0, 0);
     width: 200px;
-    animation: fadeIn ease .5s;
-    -webkit-animation: fadeIn ease .5s;
-    -moz-animation: fadeIn ease .5s;
+    animation: fadeIn ease 0.3s;
+    -webkit-animation: fadeIn ease 0.3s;
+    -moz-animation: fadeIn ease 0.3s;
 
     @keyframes fadeIn {
         0% {
