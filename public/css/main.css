@@ -131,7 +131,7 @@ header {
 }
 
 .logo-1-background {
-  background-image: url("../images/logo.svg");
+  background-image: url("../images/moth-logo-large.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: inline-block;
@@ -139,7 +139,7 @@ header {
 }
 
 .logo-2 {
-  background-image: url("../images/logo-horizontal.svg");
+  background-image: url("../images/moth-logo-horizontal-dark.svg");
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0;
@@ -164,7 +164,7 @@ header {
 
 /* Mobile logo */
 .logo-3 {
-  background-image: url("../images/logo-horizontal-white.svg");
+  background-image: url("../images/moth-logo-horizontal-light.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
