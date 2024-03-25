@@ -55,16 +55,22 @@ li.role-nav-item {
                         content: '';
                         background-color: #ffffff;
                         position: absolute;
-                        top: 0;
+                        top: 2px;
                         right: 0;
-                        height: 100%;
-                        width: 0;
+                        height: calc(100% - 4px);
+                        width: 1px;
                     }
                 }
 
                 &:hover,
                 &:focus {
-                    text-decoration: underline;
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
                 }
             }
         }
