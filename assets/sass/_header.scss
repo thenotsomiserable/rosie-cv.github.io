@@ -44,7 +44,7 @@ header {
     margin: 10px 0;
     position: relative;
     top: 5px;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
     width: 180px;
 }
 
@@ -53,7 +53,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .logo-2 {
@@ -127,8 +127,6 @@ header {
         display: block;
     }
 }
-
-
 
 .mobile-header {
     max-height: 100vh;
