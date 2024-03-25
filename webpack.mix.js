@@ -7,3 +7,5 @@ mix.options({ processCssUrls: false })
 mix.js('assets/js/main.js', 'public/js')
     .sass('assets/sass/main.scss', 'public/css/')
     .sourceMaps(true, 'source-map')
+
+mix.copy('assets/images', 'public/images');

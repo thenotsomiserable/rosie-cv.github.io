@@ -1,4 +1,20 @@
 {
     "/public/js/main.js": "/public/js/main.js",
-    "/public/css/main.css": "/public/css/main.css"
+    "/public/css/main.css": "/public/css/main.css",
+    "/public/images/card-image-blogs.png": "/public/images/card-image-blogs.png",
+    "/public/images/card-image-catalogues.png": "/public/images/card-image-catalogues.png",
+    "/public/images/card-image-search.png": "/public/images/card-image-search.png",
+    "/public/images/cv-logo-4.svg": "/public/images/cv-logo-4.svg",
+    "/public/images/cv-logo-horizontal-3.svg": "/public/images/cv-logo-horizontal-3.svg",
+    "/public/images/cv-logo-horizontal-4.svg": "/public/images/cv-logo-horizontal-4.svg",
+    "/public/images/cv-logo-horizontal-white-4.svg": "/public/images/cv-logo-horizontal-white-4.svg",
+    "/public/images/hamburger-decorated.svg": "/public/images/hamburger-decorated.svg",
+    "/public/images/hamburger-plain.svg": "/public/images/hamburger-plain.svg",
+    "/public/images/logo-horizontal-white.svg": "/public/images/logo-horizontal-white.svg",
+    "/public/images/logo-horizontal.svg": "/public/images/logo-horizontal.svg",
+    "/public/images/logo.svg": "/public/images/logo.svg",
+    "/public/images/moth-logo-horizontal-dark.svg": "/public/images/moth-logo-horizontal-dark.svg",
+    "/public/images/moth-logo-horizontal-light.svg": "/public/images/moth-logo-horizontal-light.svg",
+    "/public/images/moth-logo-large.svg": "/public/images/moth-logo-large.svg",
+    "/public/images/white-horse-trail.jpg": "/public/images/white-horse-trail.jpg"
 }
