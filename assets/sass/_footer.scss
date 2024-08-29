@@ -23,6 +23,8 @@ footer {
     
         &:hover,
         &:focus {
+            color: $color-white;
+            
             &::after {
                 width: 0;
             }
