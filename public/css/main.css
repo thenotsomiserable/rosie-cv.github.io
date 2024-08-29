@@ -107,13 +107,28 @@ header {
   position: fixed;
   top: 0;
 }
-
-.header-items {
+header-items {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin: auto;
   width: 60%;
+}
+header .role-nav a {
+  text-decoration: none;
+  position: relative;
+}
+header .role-nav a::after {
+  content: "";
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+}
+header .role-nav a:hover::after, header .role-nav a:focus::after {
+  width: 0;
 }
 
 .brand {
