@@ -126,6 +126,7 @@ header .role-nav a::after {
   bottom: -2px;
   height: 1px;
   width: 100%;
+  transition: all 0.3s ease;
 }
 header .role-nav a:hover::after, header .role-nav a:focus::after {
   width: 0;
@@ -232,8 +233,6 @@ header {
 }
 
 footer {
-  /*background: rgb(36,12,61);
-  background: linear-gradient(180deg, rgba(36,12,61,1) 0%, rgba(63,13,77,1) 57%, rgba(9,44,57,1) 99%);*/
   height: 75px;
   width: 100%;
   margin-top: auto;
@@ -242,6 +241,21 @@ footer {
 }
 footer a {
   color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+}
+footer a::after {
+  content: "";
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+footer a:hover::after, footer a:focus::after {
+  width: 0;
 }
 
 @keyframes pulse {
@@ -291,19 +305,19 @@ footer a {
   width: 100%;
 }
 
-.project-cards .project-card {
+.project-card {
   height: 100%;
 }
-.project-cards .project-card img {
+.project-card img {
   border-top: 10px solid #000000;
   border-bottom: 10px solid #000000;
 }
-.project-cards .project-card .card-divider {
+.project-card .card-divider {
   background-color: #240c3d;
   color: #FFFFFF;
   min-height: 80px;
 }
-.project-cards .project-card .card-section {
+.project-card .card-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
