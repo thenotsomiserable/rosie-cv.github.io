@@ -9,6 +9,12 @@ footer {
 
     a {
         color: $color-white;
+
+        &:hover,
+        &:focus {
+            color: $color-white;
+            text-decoration: none;
+        }
     }
 }
   
