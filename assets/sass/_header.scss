@@ -132,7 +132,7 @@ header {
     overflow-y: scroll;
     background: rgb(119, 48, 21);
     background: linear-gradient(180deg, rgba(119, 48, 21, 1) 0%, rgba(95, 9, 121, 1) 27%, rgba(23, 86, 110, 1) 99%);
-    color: #FFFFFF;
+    color: $color-white;
     position: fixed;
     top: 0;
     width: 100%;

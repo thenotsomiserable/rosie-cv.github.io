@@ -1,9 +1,10 @@
+/* Colours */
 * {
   font-family: "Molengo", sans-serif;
 }
 
 body {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .container {
@@ -224,6 +225,9 @@ footer {
   padding-top: 20px;
   animation: pulse 30s infinite;
 }
+footer a {
+  color: #FFFFFF;
+}
 
 @keyframes pulse {
   0% {
@@ -270,6 +274,24 @@ footer {
 
 .full-width-card {
   width: 100%;
+}
+
+.project-cards .project-card {
+  height: 100%;
+}
+.project-cards .project-card img {
+  border-top: 10px solid #000000;
+  border-bottom: 10px solid #000000;
+}
+.project-cards .project-card .card-divider {
+  background-color: #240c3d;
+  color: #FFFFFF;
+  min-height: 80px;
+}
+.project-cards .project-card .card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* Navigation section */
@@ -321,7 +343,7 @@ li.role-nav-item {
 }
 .mobile-navigation-items ul li:not(:last-child)::after {
   content: "";
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   position: absolute;
   top: 2px;
   right: 0;
@@ -332,7 +354,7 @@ li.role-nav-item {
   text-decoration: underline;
 }
 .mobile-navigation-items ul li a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
